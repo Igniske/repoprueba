@@ -6,8 +6,8 @@ valor.innerHTML = count;
 
 boton1.addEventListener("click", function() {
     count++;
-  });
-
-if(count === 69){
-    alert("Nice")
-}
+    valor.innerHTML = count;
+    if (count === 69) {
+        alert("Nice");
+    }
+});
