@@ -14,7 +14,7 @@ boton1.addEventListener("click", function() {
 });
 
 boton2.addEventListener("click", function(){
-
+    alert("soy una alerta")
 });
 
 
