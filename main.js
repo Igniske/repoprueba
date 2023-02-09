@@ -4,6 +4,10 @@ let count = 0;
 
 valor.innerHTML = count;
 
-boton1.addEventListener(e =>{
-    count ++;
-})
+boton1.addEventListener("click",
+    count ++
+)
+
+if(count === 69){
+    alert("Nice")
+}
