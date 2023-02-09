@@ -4,10 +4,12 @@ let count = 0;
 
 valor.innerHTML = count;
 
-boton1.addEventListener("click",
-    count ++
-)
+boton1.addEventListener("click", function() {
+    count++;
+    valor.innerHTML = count;
+    if (count === 69) {
+        alert("Nice");
+    }
+});
 
-if(count === 69){
-    alert("Nice")
-}
+
