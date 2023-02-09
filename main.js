@@ -4,9 +4,9 @@ let count = 0;
 
 valor.innerHTML = count;
 
-boton1.addEventListener("click",
-    count ++
-)
+boton1.addEventListener("click", function() {
+    count++;
+  });
 
 if(count === 69){
     alert("Nice")
